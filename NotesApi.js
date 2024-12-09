@@ -35,5 +35,7 @@ export default class NotesAPI {
         const newNotes = notes.filter(note => note.id != id);
 
         localStorage.setItem("notesapp-notes", JSON.stringify(newNotes));
-    }
+
+        
+}
 }
